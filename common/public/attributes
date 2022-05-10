@@ -1,7 +1,7 @@
 # HALs
-hal_attribute_lineage(lineage_camera_motor)
-hal_attribute_lineage(lineage_fastcharge)
-hal_attribute_lineage(lineage_fod)
-hal_attribute_lineage(lineage_livedisplay)
-hal_attribute_lineage(lineage_touch)
-hal_attribute_lineage(lineage_trust)
+hal_attribute_ouvrir(ouvrir_camera_motor)
+hal_attribute_ouvrir(ouvrir_fastcharge)
+hal_attribute_ouvrir(ouvrir_fod)
+hal_attribute_ouvrir(ouvrir_livedisplay)
+hal_attribute_ouvrir(ouvrir_touch)
+hal_attribute_ouvrir(ouvrir_trust)

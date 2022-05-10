@@ -1,0 +1,9 @@
+# HwBinder IPC from client to server
+binder_call(hal_ouvrir_trust_client, hal_ouvrir_trust_server)
+
+add_hwservice(hal_ouvrir_trust_server, hal_ouvrir_trust_hwservice)
+allow hal_ouvrir_trust_client hal_ouvrir_trust_hwservice:hwservice_manager find;
+
+allow hal_ouvrir_trust_server self:capability sys_admin;
+
+allow hal_ouvrir_trust_server proc_deny_new_usb:file rw_file_perms;

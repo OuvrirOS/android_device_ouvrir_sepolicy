@@ -5,10 +5,10 @@ allow platform_app nfc_service:service_manager find;
 allow platform_app system_prop:property_service set;
 
 # Allow FastCharge HAL service to be found
-hal_client_domain(platform_app, hal_lineage_fastcharge)
+hal_client_domain(platform_app, hal_ouvrir_fastcharge)
 
 # Allow FOD HAL service to be found
-hal_client_domain(platform_app, hal_lineage_fod)
+hal_client_domain(platform_app, hal_ouvrir_fod)
 
 # Allow LiveDisplay HAL service to be found
-hal_client_domain(platform_app, hal_lineage_livedisplay)
+hal_client_domain(platform_app, hal_ouvrir_livedisplay)
